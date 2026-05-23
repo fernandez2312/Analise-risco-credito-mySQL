@@ -17,3 +17,5 @@ Após a execução das queries de agregação analítica no MySQL sobre os 32.50
 ## 4. Próximos Passos
 * [ ] Implementação de visualizações executivas (Dashboard) conectadas ao banco MySQL.
 * [ ] Desenvolvimento de um modelo preditivo básico em Python para score de crédito.
+
+![Gráfico de Risco por Moradia](python/dashboard_risco_moradia.png)
