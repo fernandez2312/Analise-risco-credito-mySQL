@@ -9,8 +9,10 @@ O controle de inadimplência é um dos maiores desafios de instituições financ
 * **Métricas Avaliadas:** Taxa de inadimplência por segmento ($T_i$), faixas etárias, perfis de moradia e intenção do empréstimo.
 
 ## 3. Principais Descobertas (Insights de Negócio)
-* **Tratamento de Ruídos:** Identificação e limpeza de inconsistências reais no dataset (dados demográficos distorcidos e taxas de juros ausentes).
-* **Fatores de Risco:** Segmentação analítica mapeando quais perfis de tomadores concentram o maior volume financeiro inadimplente.
+Após a execução das queries de agregação analítica no MySQL sobre os 32.500 registros, mapeamos os seguintes indicadores críticos:
+* **Inadimplência por Intenção:** Empréstimos solicitados para consolidar dívidas (*Debt Consolidation*) e para fins médicos (*Medical*) apresentam as maiores taxas de calote da carteira, superando os 25%.
+* **O Fator Moradia:** Clientes que moram de aluguel (*Rent*) possuem uma taxa de inadimplência significativamente maior se comparada aos que possuem casa própria (*Own*).
+* **Visão Demográfica:** A faixa etária jovem (18-24 anos) concentra a maior volatilidade de risco, com taxas de atraso superiores à média do público acima de 35 anos.
 
 ## 4. Próximos Passos
 * [ ] Implementação de visualizações executivas (Dashboard) conectadas ao banco MySQL.
