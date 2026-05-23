@@ -15,7 +15,7 @@ Após a execução das queries de agregação analítica no MySQL sobre os 32.50
 * **Visão Demográfica:** A faixa etária jovem (18-24 anos) concentra a maior volatilidade de risco, com taxas de atraso superiores à média do público acima de 35 anos.
 
 ## 4. Próximos Passos
-* [ ] Implementação de visualizações executivas (Dashboard) conectadas ao banco MySQL.
-* [ ] Desenvolvimento de um modelo preditivo básico em Python para score de crédito.
+* [x] Implementação de visualizações executivas (Dashboard) conectadas ao banco MySQL.
+* [x] Desenvolvimento de um modelo preditivo básico em Python para score de crédito.
 
 ![Gráfico de Risco por Moradia](python/dashboard_risco_moradia.png)
